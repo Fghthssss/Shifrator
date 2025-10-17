@@ -61,16 +61,21 @@ cd Shifrator
 
 ### 📦 Зависимости
 
+```bash
 pip install cryptography pycrypto
+```
 
 ### 🚀 Использование
 
 #### CLI режим
 
+```bash
 python marte.py
+```
 
 #### Использование в коде
 
+```python
 from marte import transform
 
 # Шифрование
@@ -78,14 +83,17 @@ encrypted = transform("Текст", вес, уровень, ключ, "1")
 
 # Дешифрование
 decrypted = transform(encrypted, вес, уровень, ключ, "2")
+```
 
 #### Прямое использование
 
+```bash
 # Шифрование
 python -c "from marte import transform; print(transform('Ваш текст', 100, 200, 300, '1'))"
 
 # Дешифрование  
 python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100, 200, 300, '2'))"
+```
 
 ### 💡 Примеры работы
 
@@ -135,21 +143,28 @@ python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100
 
 ### 📥 Installation
 
+```bash
 git clone https://github.com/Fghthssss/Shifrator
 cd Shifrator
+```
 
 ### 📦 Dependencies
 
+```bash
 pip install cryptography pycrypto
+```
 
 ### 🚀 Usage
 
 #### CLI Mode
 
+```bash
 python marte.py
+```
 
 #### Usage in Code
 
+```python
 from marte import transform
 
 # Encryption
@@ -157,15 +172,17 @@ encrypted = transform("Text", weight, level, key, "1")
 
 # Decryption
 decrypted = transform(encrypted, weight, level, key, "2")
+```
 
 #### Direct Usage
 
+```bash
 # Encryption
 python -c "from marte import transform; print(transform('Your text', 100, 200, 300, '1'))"
 
 # Decryption
 python -c "from marte import transform; print(transform('BASE64_ENCRYPTED_TEXT', 100, 200, 300, '2'))"
-
+```
 
 ### 💡 Examples
 
