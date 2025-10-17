@@ -4,25 +4,31 @@
 
 ---
 
-## 🔍 Навигация / Navigation
+## Навигация
 
-- [🚀 Быстрый старт / Quick Start](#-быстрый-старт--quick-start)
-- [⭐ Особенности / Features](#-особенности--features)
-- [📥 Установка / Installation](#-установка--installation)
-- [📦 Зависимости / Dependencies](#-зависимости--dependencies)
-- [🔧 Использование / Usage](#-использование--usage)
-- [💡 Примеры / Examples](#-примеры--examples)
-- [⚠️ Примечания / Notes](#️-примечания--notes)
+### 🔗 Быстрые ссылки
+- [Установка](#установка)
+- [Использование](#использование)
+- [CLI режим](#cli-режим)
+- [Использование в коде](#использование-в-коде)
+- [Примеры](#примеры)
+- [Примечания](#примечание)
 
 ---
 
 ## Русский
 
-### 🚀 Быстрый старт
-
 **Marte** - это инструмент для криптографических преобразований, реализующий многоуровневое шифрование с использованием нескольких алгоритмов.
 
-### ⭐ Особенности
+### 📋 Содержание
+1. [Особенности](#особенности)
+2. [Установка](#установка)
+3. [Зависимости](#зависимости)
+4. [Использование](#использование)
+5. [Примеры работы](#примеры-работы)
+6. [Примечания](#примечание)
+
+### Особенности
 
 - Многоуровневое шифрование (AES → 3DES → DES → Blowfish)
 - Поддержка симметричных алгоритмов шифрования:
@@ -35,20 +41,20 @@
 - Кодирование в base64 для удобства передачи
 - Сериализация данных с помощью marshal
 
-### 📥 Установка
+### Установка
 
 ```bash
 git clone https://github.com/Fghthssss/Shifrator
 cd Shifrator
 ```
 
-### 📦 Зависимости
+### Зависимости
 
 ```bash
 pip install cryptography pycrypto
 ```
 
-### 🔧 Использование
+### Использование
 
 #### CLI режим
 
@@ -68,17 +74,7 @@ encrypted = transform("Текст", вес, уровень, ключ, "1")
 decrypted = transform(encrypted, вес, уровень, ключ, "2")
 ```
 
-#### Прямое использование
-
-```bash
-# Шифрование
-python -c "from marte import transform; print(transform('Ваш текст', 100, 200, 300, '1'))"
-
-# Дешифрование  
-python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100, 200, 300, '2'))"
-```
-
-### 💡 Примеры
+### Примеры работы
 
 #### 📤 Шифрование (Translate):
 1. Выберите метод `1`
@@ -93,7 +89,7 @@ python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100
 2. Введите зашифрованный текст
 3. Укажите те же параметры, что использовались при шифровании
 
-### ⚠️ Примечания
+### Примечание
 
 Параметры `Weight`, `Level` и `Key` должны быть целыми числами и должны совпадать при шифровании и дешифровании для успешного восстановления данных.
 
@@ -101,11 +97,17 @@ python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100
 
 ## English
 
-### 🚀 Quick Start
-
 **Marte** is a cryptographic transformation tool that implements multi-layer encryption using several algorithms.
 
-### ⭐ Features
+### 📋 Navigation
+1. [Features](#features)
+2. [Installation](#installation)
+3. [Dependencies](#dependencies)
+4. [Usage](#usage)
+5. [Examples](#examples)
+6. [Notes](#note)
+
+### Features
 
 - Multi-layer encryption (AES → 3DES → DES → Blowfish)
 - Support for symmetric encryption algorithms:
@@ -118,20 +120,20 @@ python -c "from marte import transform; print(transform('BASE64_ТЕКСТ', 100
 - Base64 encoding for easy transmission
 - Data serialization using marshal
 
-### 📥 Installation
+### Installation
 
 ```bash
 git clone https://github.com/Fghthssss/Shifrator
 cd Shifrator
 ```
 
-### 📦 Dependencies
+### Dependencies
 
 ```bash
 pip install cryptography pycrypto
 ```
 
-### 🔧 Usage
+### Usage
 
 #### CLI Mode
 
@@ -151,17 +153,7 @@ encrypted = transform("Text", weight, level, key, "1")
 decrypted = transform(encrypted, weight, level, key, "2")
 ```
 
-#### Direct Usage
-
-```bash
-# Encryption
-python -c "from marte import transform; print(transform('Your text', 100, 200, 300, '1'))"
-
-# Decryption
-python -c "from marte import transform; print(transform('BASE64_ENCRYPTED_TEXT', 100, 200, 300, '2'))"
-```
-
-### 💡 Examples
+### Examples
 
 #### 📤 Encryption (Translate):
 1. Select method `1`
@@ -176,22 +168,23 @@ python -c "from marte import transform; print(transform('BASE64_ENCRYPTED_TEXT',
 2. Enter encrypted text
 3. Specify the same parameters used during encryption
 
-### ⚠️ Notes
+### Note
 
 The `Weight`, `Level`, and `Key` parameters must be integers and must match during encryption and decryption for successful data recovery.
 
-### 🔒 Security Notice
+### Security Notice
 
 This tool is for educational purposes. Use professional cryptographic libraries for production systems.
 
 ---
 
-## 🔄 Быстрая навигация / Quick Navigation
+## 🔄 Quick Navigation
+- [⬆️ Back to Top](#marte)
+- [🛠 Installation](#установка)
+- [🚀 Usage](#использование)
+- [💻 Examples](#примеры-работы)
+- [📝 Notes](#примечание)
 
-- [⬆️ Наверх / Back to Top](#marte)
-- [🚀 Быстрый старт / Quick Start](#-быстрый-старт--quick-start)
-- [⭐ Особенности / Features](#-особенности--features)
-- [📥 Установка / Installation](#-установка--installation)
-- [🔧 Использование / Usage](#-использование--usage)
-- [💡 Примеры / Examples](#-примеры--examples)
-- [⚠️ Примечания / Notes](#️-примечания--notes)
+---
+
+*[⬆️ Наверх](#marte)* | *[⬆️ Back to Top](#marte)*
