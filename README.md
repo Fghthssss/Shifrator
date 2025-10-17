@@ -1,5 +1,5 @@
 # Marte
-
+8
 [English](#english) | [Русский](#русский)
 
 ---
@@ -23,8 +23,8 @@
 
 ### Установка
 
-git clone https://github.com/your-username/marte.git
-cd marte
+git clone https://github.com/Fghthssss/Shifrator
+cd Shifrator
 
 ### Зависимости
 
