@@ -194,4 +194,32 @@ python -c "from marte import transform; print(transform('BASE64_ENCRYPTED_TEXT',
    - Level
    - Key
 
-####
+#### 📥 Decryption (Untranslate):
+1. Select method `2`
+2. Enter encrypted text
+3. Specify the same parameters used during encryption
+
+### ⚠️ Note
+
+The `Weight`, `Level`, and `Key` parameters must be integers and must match during encryption and decryption for successful data recovery.
+
+### 🔒 Security Notice
+
+This tool is for educational purposes. Use professional cryptographic libraries for production systems.
+
+---
+
+## 🔄 Быстрая навигация / Quick Navigation
+
+| Русский | English |
+|---------|---------|
+| [⬆️ Наверх](#marte) | [⬆️ Back to Top](#marte) |
+| [🛠 Установка](#установка) | [🛠 Installation](#installation) |
+| [🚀 Использование](#использование) | [🚀 Usage](#usage) |
+| [💻 Примеры кода](#использование-в-коде) | [💻 Code Examples](#usage-in-code) |
+| [📝 Примечания](#примечание) | [📝 Notes](#note) |
+| [🔧 CLI режим](#cli-режим) | [🔧 CLI Mode](#cli-mode) |
+
+---
+
+*[⬆️ Наверх / Back to Top](#marte)*
