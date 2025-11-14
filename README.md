@@ -97,7 +97,7 @@ decrypted = transform(encrypted, вес, уровень, ключ, "2")
 
 ## English
 
-**Marte** is a cryptographic transformation tool that implements multi-layer encryption using several algorithms.
+**shifrator** is a cryptographic transformation tool that implements multi-layer encryption using several algorithms.
 
 ### 📋 Navigation
 1. [Features](#features)
@@ -138,13 +138,13 @@ pip install cryptography pycrypto
 #### CLI Mode
 
 ```bash
-python marte.py
+python shifrator.py
 ```
 
 #### Usage in Code
 
 ```python
-from marte import transform
+from shifrator import transform
 
 # Encryption
 encrypted = transform("Text", weight, level, key, "1")
